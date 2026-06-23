@@ -2,7 +2,7 @@
 This repository contains code associated with the analysis presented in "Behavioural Change in Canadian Disease Outbreaks" by MacLean & Deardon.
 
 ## Data
-Incidence data for this study were obtained from the Canadian Disease Incidence Dataset (CANDID) by Earn et al. (2024). Filtered datasets for measles and influenza in Ontario, Canada, are provided in the `data/` folder.
+Incidence data for this study were obtained from the Canadian Disease Incidence Dataset (CANDID) by Earn et al. (2024). Population data required for Section 3.2 were obtained from Statistics Canada (2000, 2024). Filtered datasets for measles and influenza in Ontario, Canada, are provided in the `data/` folder.
 
 ## File Descriptions
 
