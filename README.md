@@ -18,7 +18,7 @@ Incidence data for this study were obtained from the Canadian Disease Incidence 
 | `postPredFit.R` | Adapted from Ward et al. (2023) |
 | `summarizePost.R` | Adapted from Ward et al. (2023) |
 | `predictiveFit_convergence.R` | Creates plots of posterior predictive fit, parameter traceplots, and exports Gelman-Rubin convergence diagnostics for all years. |
-| `summarizeResults.R` | Summarizes estimates and posterior fit from `results/' folder into smaller files to be used for figures and tables. |
+| `summarizeResults.R` | Summarizes estimates and posterior fit from `results/` folder into smaller files to be used for figures and tables. |
 | `figures.R` | Produces figures and output for tables in the manuscript. |
 
 ---
