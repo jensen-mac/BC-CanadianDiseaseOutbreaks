@@ -1,9 +1,9 @@
 ################################################################################
 # Obtain removal estimates for sensitivity scenarios 2 & 3
 # 2: individuals >15 years have previously contracted measles and are immune
-# 3: 95% of population is removed
+# 3: 95% of the population is removed
 
-# Population data from Statistics Canada:
+# Download population data from Statistics Canada:
 # https://open.canada.ca/data/en/dataset/04e5b2c5-219b-408c-b9ea-4da828ccab81
 # https://open.canada.ca/data/en/dataset/ecdee020-5919-4996-8d3d-c3df75f50ca0 
 ################################################################################
@@ -14,7 +14,7 @@ library(dplyr)
 influenza <- read.csv("data/influenza_CA_ON_weekly.csv")
 measles <- read.csv("data/measles_CA_ON_weekly.csv")
 
-# Population estimates by age
+# Population estimates by age (Statistics Canada, 2000, 2024)
 ON_pop_1921_1971 <- read.csv("data/17100029.csv")
 ON_pop_1971_2025 <- read.csv("data/17100005.csv") 
 
